@@ -30,7 +30,7 @@ public class Main {
 
 	public static void calaculateTax(String name, Long income) {
     	long tax;
-		if (income>300000){
+		if (income>=300000){
     		tax  = (long)((20/100.0)*income);
     	}else if (income>100000 && income<300000){
     		tax = (long)((10/100.0)*income);
